@@ -9,15 +9,15 @@ const Copyright = () => {
         <div className="container">
             <div className="row">
 
-                <div className="col">
+                <div className="col-lg col-sm-12">
                   <h5>&copy; Wayfair City Stars Store .Inc </h5>
                 </div>
 
-                <div className="col">
+                <div className="col-lg col-sm-6">
                 <img src={visa} alt="visa" />
                 </div>
 
-                <div className="col">
+                <div className="col-lg col-sm-6">
                     <img src={nasnavlogo} alt="nasnav" />
                 </div>
 

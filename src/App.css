@@ -56,8 +56,8 @@ nav.bg-light {
   padding-bottom:5px;  
 }
 
-.copyright > div {
-  margin-bottom: 2px; 
+.copyright h5 {
+  line-height: 60px;  
 }
 
 
