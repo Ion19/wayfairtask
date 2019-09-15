@@ -1,8 +1,5 @@
 /* Global styling */
-/* .container {
-  max-width: 1550px !important ;
-  padding: 0 40px !important;
-} */
+
 
 body {
   font-family: 'Cairo', sans-serif;
@@ -46,19 +43,6 @@ nav.bg-light {
 
 
 
-
-
-
-/* Copyright Styling */
-
-.copyright {
-  padding-top:5px; 
-  padding-bottom:5px;  
-}
-
-.copyright h5 {
-  line-height: 60px;  
-}
 
 
 
@@ -683,3 +667,10 @@ nav.bg-light {
 }
 
 /* End Footer Styling */
+
+/* Copyright Styling */
+
+.copyright {
+  padding-top:5px; 
+  padding-bottom:5px;  
+}
