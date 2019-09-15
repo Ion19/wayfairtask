@@ -1,25 +1,46 @@
 import React from 'react';
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './utlites/css/font-awesome.min.css';
+
+import NavBar from './components/Navbar';
+import BottomNavbar from './components/BottomNavbar';
+import Header from './components/Header';
+
 import './App.css';
+import Categories from './components/Categories';
+import Features from './components/Features';
+import Footer from './components/Footer';
+import MainSlider from './components/MainSlider';
+import Copyright from './components/Copyright';
+import PanoramaSection from './components/PanoramaSection';
+import OurProducts from './components/OurProducts';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <NavBar/>
+    <BottomNavbar/>
+   
+     <Header/>
+     
+    <Categories/>
+    
+    <PanoramaSection/>
+    
+    <OurProducts/>
+    
+    
+
+    <Features/>
+   
+    <MainSlider/>
+     
+    <Footer/>
+    
+    <Copyright/>
+    
+    </>
   );
 }
 
