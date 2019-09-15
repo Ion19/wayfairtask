@@ -14,11 +14,11 @@ const Copyright = () => {
                 </div>
 
                 <div className="col-lg col-sm-6">
-                <img src={visa} alt="visa" />
+                <img src={visa} alt="visa" width:"180" />
                 </div>
 
                 <div className="col-lg col-sm-6">
-                    <img src={nasnavlogo} alt="nasnav" />
+                    <img src={nasnavlogo} alt="nasnav" width:"180" />
                 </div>
 
             </div>
